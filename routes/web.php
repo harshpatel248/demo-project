@@ -21,6 +21,8 @@ Route::get('/home', 'welcome');
 
 Route::get('/home1', 'welcome');
 
+Route::get('/home3', 'welcome');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
